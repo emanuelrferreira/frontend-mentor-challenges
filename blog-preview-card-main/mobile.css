@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* - Mobile: 375px
+- Desktop: 1440px
+- Font size (paragraph): 16px
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800 */
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Yellow);
+    font-family: 'Figtree';
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: var(--White);
+    border-radius: 20px;
+    border: 1px solid var(--Black);
+    box-shadow: 8px 8px var(--Black);
+    width: 327px;
+    height: 501px;
+    padding: 24px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 24px;
+}
+
+main > div#image {
+    background: url(assets/images/illustration-article.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 279px;
+    height: 200px;
+}
+
+article {
+    width: 279px;
+    height: 173px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+h1:hover {
+    color: var(--Yellow);
+    cursor: url(assets/images/black-pointer.png), pointer;
+}
+
+p#date {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+article > a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: var(--Yellow);
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: var(--Black);
+}
+
+article > a:hover {
+    cursor: url(assets/images/black-pointer.png), pointer;
+}
+
+p#p-article {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Grey);
+}
+
+
+div#author {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    column-gap: 12px;
+}
+
+div#author > p#p-author {
+    font-weight: bold;
+}
+
+div#author > img {
+    width: 32px;
+    height: 32px;
+}
+

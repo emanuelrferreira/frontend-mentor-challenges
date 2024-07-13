@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+main {
+    width: 384px;
+    height: 522px;
+}
+
+main > div#image {
+    width: 336px;
+    height: 200px;
+}
+
+article {
+    width: 336px;
+    height: 194px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p#date {
+    font-size: 14px;
+}
+
+article > a {
+    font-size: 14px;
+}
+
+p#p-article {
+    font-size: 16px;
+}
