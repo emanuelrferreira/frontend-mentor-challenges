@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -17,14 +18,15 @@
 
 
 body {
+    border: 2px dashed white;
     background-color: var(--off-black);
     font-family: Inter;
     font-size: 14px;
     color: var(--white);
-}
-div.cont {
-    display: relative;
-
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main > img {
@@ -39,11 +41,6 @@ main {
     width: 330px;
     height: 580px;
     border-radius: 15px;
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 h1, p {
@@ -85,3 +82,4 @@ li > a:hover {
     cursor: url(assets/images/black-pointer.png), auto;
     color: black;
 }
+
