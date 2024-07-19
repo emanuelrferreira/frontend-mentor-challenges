@@ -22,7 +22,7 @@
     #result-circle {
         width: 200px;
         height: 200px;
-        margin: 28px 0px;
+        margin: 50px 0px;
     }
 
     #result-numerator {
@@ -60,7 +60,43 @@
         width: 288px;
     }
 
+    #icon-reaction {
+        width: 20px;
+        height: 20px;
+    }
+
+    #icon-memory {
+        width: 20px;
+        height: 20px;
+    }
+
+    #icon-verbal {
+        width: 20px;
+        height: 20px;
+    }
+
+    #icon-visual {
+        width: 20px;
+        height: 20px;
+    }
+
+    .category-pair {
+        font-size: 18px;
+    }
+    
+
+    .score-numerator {
+        font-size: 18px;
+        padding-right: 8px;
+    }
+    
+    .score-denominator {
+        font-size: 18px;
+        padding-right: 16px;
+    }
+
     a {
+        width: 288px;
         margin-top: 30px;
     }
 }
