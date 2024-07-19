@@ -28,7 +28,6 @@
 }
 
 body {
-    background-color: hsla(241, 100%, 89%, 0.288);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
