@@ -27,7 +27,15 @@
     }
 
     h3 {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    #product-descr {
+        margin-bottom: 39px;
+    }
+
+    #sale-price {
+        padding-bottom: 30px;
     }
 
     .ad-to-card-btn {
