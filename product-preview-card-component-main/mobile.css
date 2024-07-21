@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --display-font: "Fraunces", serif;
+    --body-font: "Montserrat", sans-serif;
+    --button-font: "Montserrat", sans-serif;
+    --overline-font: "Montserrat", sans-serif;
+    --font-size-display: 32px;
+    --font-size-body: 14px;
+    --font-size-button: 14px;
+    --font-size-overline: 12px;
+    --font-weight-body: medium;
+    --font-weight-display: bold;
+    --font-weight-button: bold;
+    --font-weight-overline: medium;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: var(--body-font);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: var(--white);
+    width: 345px;
+    height: 610px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#perfume-img {
+    width: 345px;
+    height: 240px;
+    background: url(images/image-product-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#content-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+#content {
+    width: 290px;
+}
+
+h3 {
+    font-family: var(--overline-font);
+    font-size: var(--font-size-overline);
+    font-weight: var(--font-weight-overline);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 12px;
+}
+
+h1 {
+    font-family: var(--display-font);
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-display);
+    line-height: 32px;
+    padding-bottom: 16px;
+}
+
+#product-descr {
+    line-height: 23px;
+    padding-bottom: 24px;
+}
+
+#prices-breakdown {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#sale-price {
+    font-family: var(--display-font);
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-display);
+    line-height: 32px;
+    color: var(--dark-cyan);
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#selling-price {
+    font-size: 13px;
+    line-height: 23px;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-size: 16px;
+    margin-right: 11.60px;
+}
+
+.ad-to-card-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-family: var(--button-font);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    text-align: center;
+    text-decoration: none;
+}
+
+.ad-to-card-btn:hover {
+    background-color: #1A4032;
+    transition: .5s ease;
+}

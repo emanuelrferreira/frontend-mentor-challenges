@@ -1,0 +1,36 @@
+@media screen and (min-width: 501px) and (max-width: 2560px) {
+    main {
+        width: 600px;
+        height: 450px;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    #perfume-img {
+        width: 300px;
+        height: 450px;
+        background: url(images/image-product-desktop.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #content-container {
+        width: 300px;
+        padding: 32px;
+    }
+
+    #content {
+        width: 237px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-items: center;
+    }
+
+    h3 {
+        padding-bottom: 20px;
+    }
+
+    .ad-to-card-btn {
+        width: 236px;
+    }
+}
