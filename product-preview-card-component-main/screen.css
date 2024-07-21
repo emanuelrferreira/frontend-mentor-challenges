@@ -42,6 +42,10 @@
         margin-bottom: 32px;
     }
 
+    .material-symbols-outlined {
+        font-size: 14px;
+    }
+
     .ad-to-card-btn {
         width: 236px;
     }

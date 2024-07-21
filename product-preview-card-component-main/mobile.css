@@ -91,6 +91,7 @@ h1 {
 #product-descr {
     line-height: 23px;
     margin-bottom: 24px;
+    font-weight: 500;
 }
 
 #prices-breakdown {
