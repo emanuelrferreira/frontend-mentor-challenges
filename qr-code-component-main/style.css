@@ -73,5 +73,6 @@ p {
     font: var(--text-preset-2);
     text-align: center;
     line-height: 140%;
+    letter-spacing: .2px;
 }
 
