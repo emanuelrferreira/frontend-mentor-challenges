@@ -65,11 +65,13 @@ h1 {
     color: var(--slate-900);
     font: var(--text-preset-1);
     text-align: center;
+    line-height: 120%;
 }
 
 p {
     color: var(--slate-500);
     font: var(--text-preset-2);
     text-align: center;
+    line-height: 140%;
 }
 
