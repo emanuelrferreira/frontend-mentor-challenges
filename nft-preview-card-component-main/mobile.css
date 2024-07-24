@@ -94,7 +94,11 @@ h1 {
     text-decoration: none;
 }
 
-a:visited, a:active {
+#title:visited,{
+    color: var(--white);
+}
+
+#title:active {
     color: var(--white);
 }
 
