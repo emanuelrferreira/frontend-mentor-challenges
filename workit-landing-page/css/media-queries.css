@@ -71,6 +71,31 @@
         left: 19%;
     }
 
+    .founder-img {
+        width: 280px;
+        height: 280px;
+        margin-right: -28.5rem;
+        margin-top: -37rem;
+    }
+
+    .access-card {
+        width: 510px;
+        height: 410px;
+    }
+
+    .access-card-content h2 {
+        font-size: 44px;
+    }
+
+    .access-card-content p {
+        font-size: 16px;
+    }
+
+    .founder-circles {
+        top: 73%;
+        left: 52%;
+    }
+
 }
 
 /* smartphones */
@@ -95,6 +120,53 @@
         width: 54%;
     }
 
+    #founder {
+        margin-top: 23rem;
+    }
+
+    .founder-flex-container {
+        flex-direction: column;
+    }
+
+    .founder-img {
+    width: 300px;
+    height: 300px;
+    margin-right: 0rem;
+    margin-top: -12rem;
+}
+
+    .access-card {
+        width: 60%;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 8rem;
+        margin-top: -2rem;
+    }
+
+    .access-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 2rem;
+    }
+
+    .access-card-content h2 {
+        font-size: 32px;
+        padding-bottom: 2rem;
+    }
+
+    .access-card-content p {
+        text-align: center;
+        width: 270px;
+}
+
+    .founder-circles {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -109,7 +181,7 @@
     }
 
     .hero-img {
-        width: 400px;
+        width: 350px;
         top: 93%;
         left: 21%;
     }
@@ -201,6 +273,10 @@
         padding-top: 12rem;
     }
 
+    .access-card {
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width: 390px) {
@@ -212,6 +288,19 @@
     .hero-img {
         width: 300px;
         left: 12%;
+    }
+
+    .access-card {
+        width: 100%;
+    }
+
+    .access-card-content h2 {
+        font-size: 30px;
+    }
+
+    .founder-img {
+        width: 280px;
+        height: 280px;
     }
 }
 

@@ -203,3 +203,93 @@ header {
     color: var(--color-purple-900);
 }
 
+
+/* founder section */
+
+#founder {
+    margin-top: 25rem;
+    margin-bottom: 8rem;
+}
+
+.founder-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.founder-img {
+    width: 477px;
+    height: 477px;
+    margin-right: -28rem;
+    margin-top: -25rem;
+}
+
+.access-card {
+    color: var(--color-white);
+    background-color: var(--color-purple-900);
+    width: 730px;
+    height: 413px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22rem;
+    margin-bottom: 8rem;
+    position: relative;
+}
+
+.access-card-content {
+    padding: 0rem 4rem;
+}
+
+.access-card-content h2 {
+    font-size: 56px;
+    padding-bottom: 2rem;
+}
+
+.access-card-content p {
+    margin-bottom: 3rem;
+}
+
+.access-btn {
+    color: var(--color-purple-900);
+    font-weight: bold;
+    background-color: var(--color-green);
+    padding: 1rem;
+    transition: all .2s ease-in;
+}
+
+.access-btn:hover {
+    background-color: var(--color-purple-900);
+    color: var(--color-green);
+    border: 2px solid var(--color-green);
+}
+
+.founder-circles {
+    position: absolute;
+    top: 70%;
+    left: 63%;
+}
+
+/* footer */
+
+.footer-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.social-media-icons {
+    width: 116px;
+    display: flex;
+    justify-content: space-between;
+    transition: color .2s ease-in;
+}
+
+.social-media-icons:hover {
+    color: var(--color-purple-900);
+}
+
