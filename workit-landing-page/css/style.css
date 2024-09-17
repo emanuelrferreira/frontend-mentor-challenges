@@ -286,10 +286,13 @@ header {
     width: 116px;
     display: flex;
     justify-content: space-between;
-    transition: color .2s ease-in;
 }
 
-.social-media-icons:hover {
-    color: var(--color-purple-900);
+.social-media-icons svg {
+    fill: #584D62;
+    transition: fill .2s ease-in;
 }
 
+.social-media-icons a:hover svg {
+    fill: var(--color-purple-900);
+}
