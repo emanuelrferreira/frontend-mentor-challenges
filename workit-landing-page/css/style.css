@@ -187,17 +187,20 @@ header {
 }
 
 .feature-number p {
+    color: var(--color-purple-900);
     font-family: 'Fraunces', serif;
     font-size: 24px;
     font-weight: bold;
 }
 
 .feature h2 {
+    color: var(--color-purple-900);
     font-size: 32px;
     margin-bottom: 2rem;
 }
 
-.feature-text {
+.feature-p {
+    color: var(--color-purple-900);
     width: 360px;
 }
 
