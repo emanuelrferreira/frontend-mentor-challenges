@@ -197,6 +197,10 @@
         left: 17%;
     }
 
+    .features-flex-container {
+        padding-top: 12rem;
+    }
+
 }
 
 @media screen and (max-width: 390px) {
