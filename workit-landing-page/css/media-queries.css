@@ -1,0 +1,141 @@
+/* tablets */
+
+@media screen and (max-width: 1366px) {
+
+    .hero-img {
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    header {
+        background-position: -24% 32%, 109% 83%;
+    }
+
+    .header-text h1 {
+        width: 45%;
+    }
+
+    .hero-img {
+        top: 78%;
+        left: 19%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        background-position: -32% 32%, 111% 83%;
+    }
+
+    .header-text h1 {
+        width: 55%;
+    }
+
+    .hero-img {
+        width: 550px;
+        left: 19%;
+    }
+
+}
+
+/* smartphones */
+
+@media screen and (max-width: 932px) {
+
+    .header-text h1 {
+        font-size: 60px;
+        width: 50%;
+    }
+
+    .hero-img {
+        width: 600px;
+        top: 82%;
+        left: 16%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+
+    .header-text h1 {
+        width: 54%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 500px;
+        background-position: -57% 32%, 114% 83%;
+    }
+
+    .header-text h1 {
+        width: 60%;
+    }
+
+    .hero-img {
+        width: 400px;
+        top: 93%;
+        left: 21%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height: 400px;
+        background-image: none;
+    }
+
+    .header-text h1 {
+        font-size: 48px;
+        width: 71%;
+    }
+
+    .hero-img {
+        width: 400px;
+        top: 96%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    header {
+        background-image: none;
+    }
+
+    .header-text h1 {
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 300px;
+        left: 17%;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-img {
+        width: 300px;
+        left: 12%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .hero-img {
+        width: 280px;
+        left: 11%;
+    }
+}
