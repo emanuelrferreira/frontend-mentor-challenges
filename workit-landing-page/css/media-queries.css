@@ -1,4 +1,9 @@
-/* tablets */
+@media screen and (max-width: 2560px) {
+
+    .hero-img {
+        left: 36%;
+    }
+}
 
 @media screen and (max-width: 1366px) {
 
@@ -14,7 +19,7 @@
     }
 
     .header-text h1 {
-        width: 45%;
+        width: 53%;
     }
 
     .hero-img {
