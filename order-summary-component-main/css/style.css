@@ -52,14 +52,18 @@ body {
 
 .card-flex-container {
     display: flex;
-    height: 100vh;
+    height: auto;
     align-items: center;
     justify-content: center;
+    padding: 4rem 0rem;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 450px;
-    height: 697px;
+    height: 100%;
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
@@ -150,10 +154,19 @@ body {
     color: var(--desaturated-blue);
     border-radius: 11px;
     height: 50px;
+    margin-bottom: 1rem;
 }
 
 .cancel-btn:hover {
     color: var(--dark-blue);
+}
+
+.card-content h1,
+.card-content h4,
+.card-content p,
+.proceed-btn,
+.cancel-btn {
+    user-select: none;
 }
 
 
