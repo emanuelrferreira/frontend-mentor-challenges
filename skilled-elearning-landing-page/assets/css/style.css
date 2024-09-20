@@ -1,0 +1,229 @@
+/* global settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    max-width: 2560px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+p,
+a {
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* colors */
+
+:root {
+    --color-blue900: #13183F;
+    --color-blue600:#666CA3;
+    --color-pink600:#F74780;
+    --color-pink300:#FFA7C3;
+    --color-grey:#83869A;
+    --color-white: #fff;
+}
+
+/* header */
+
+body {
+    overflow-x: hidden;
+}
+
+.header-nav {
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.get-started-btn {
+    color: var(--color-white);
+    background-color: var(--color-blue900);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.253);
+    padding: .8rem 1.5rem;
+    border-radius: 28px;
+    font-weight: 600;
+}
+
+.get-started-btn:hover {
+    background-color: var(--color-blue600);
+}
+
+/* hero section */
+
+
+.hero-content {
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 12rem;
+}
+
+.hero-text {
+    width: 544px;
+    height: 339px;
+}
+
+.hero-text h1 {
+    color: var(--color-blue900);
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    color: var(--color-grey);
+    font-weight: 500;
+    width: 86%;
+    margin-bottom: 2.5rem;
+}
+
+.hero-section-btn {
+    color: var(--color-white);
+    background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+    padding: .8rem 1.5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.253);
+    border-radius: 28px;
+    font-weight: 600;
+}
+
+.hero-section-btn:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+}
+
+.hero-content img {
+    position: absolute;
+    top: -53%;
+    right: -47%;
+}
+
+
+/* cards section */
+
+.courses-background {
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
+}
+
+.grid-courses-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4rem 2rem;
+}
+
+.grid-course {
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    height: 322px;
+    border-radius: 15px;
+}
+
+.grid-course:first-child {
+    background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+}
+
+.grid-course:first-child p {
+    width: 90%;
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.grid-course:nth-child(n + 2) {
+    background-color: var(--color-white);
+}
+
+.grid-course:nth-child(n + 2) img {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    width: 56px;
+    height: 56px;
+}
+
+.grid-course:nth-child(n + 2) .course-text, a {
+    padding-left: 1.5rem;
+    width: 90%;
+}
+
+.grid-course:nth-child(n + 2) .course-anchor-flex {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.grid-course:nth-child(n + 2) h3 {
+    color: var(--color-blue900);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.grid-course:nth-child(n + 2) p {
+    color: var(--color-grey);
+    font-weight: 500;
+}
+
+.grid-course:nth-child(n + 2) a {
+    color: var(--color-pink600);
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+.grid-course:nth-child(n + 2) a:hover {
+    color: var(--color-pink300);
+} 
+
+/* footer */
+
+
+footer {
+    background-color: var(--color-blue900);
+}
+
+.footer-btn {
+    color: var(--color-white);
+    background: linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+    padding: .8rem 1.5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.253);
+    border-radius: 28px;
+    font-weight: 600;
+    transition: all .2s ease-in;
+}
+
+.footer-btn:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+}
