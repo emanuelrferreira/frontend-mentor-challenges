@@ -105,6 +105,7 @@
 
     .grid-courses-cards {
         grid-template-columns: auto;
+        padding-top: 8rem;
     }
 
     .grid-course {
@@ -147,7 +148,7 @@
     }
 
     .grid-courses-cards {
-        margin-top: -10rem;
+        padding-top: 0rem;
     }
 }
 
@@ -186,10 +187,6 @@
 
     .hero-content img {
         width: 392px;
-    }
-
-    .grid-courses-cards {
-        margin-top: -20rem;
     }
 
     .footer-nav img {

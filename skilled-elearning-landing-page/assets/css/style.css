@@ -131,6 +131,7 @@ body, html {
 
 .courses-section-background {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
+    width: 100%;
 }
 
 .grid-courses-cards {
@@ -139,7 +140,7 @@ body, html {
     grid-template-columns: auto auto auto;
     gap: 4rem 2rem;
     padding-top: 20rem;
-    padding-bottom: 0rem;
+    padding-bottom: 6rem;
 }
 
 .grid-course {
